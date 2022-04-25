@@ -1,0 +1,44 @@
+body {
+    /*background-image: url("gif.gif");
+    background-size: 100%;*/
+    background-color: #000000;/*2B061E-39393A*/
+    color: #FFFFFC;
+}
+
+#logo {
+    text-align: center;
+}
+
+#username {
+    margin-top: 9%;
+    margin-left: 10%;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    width: 80%;
+    color:black;
+}
+
+#join {
+    margin-top: 3%;
+    margin-left: 10%;
+    width: 80%;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#myModal {
+    color:#247db1;
+    text-align: center;
+}
+
+#salir {
+    width: 30%;
+    margin-top: 25px;
+    margin-left: 35%;
+}
+
+.plyr {
+    text-align: center;
+}

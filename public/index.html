@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Symmetry</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class='col-sm-4 col-xs-4' id="timer"></div>
+    <div class='col-sm-4 col-xs-4'>
+      <h1 class="display-1" id="logo">SYMMETRY</h1>
+    </div>
+    <div class='col-sm-4 col-xs-4' id="btnexit"></div>
+
+  </div>
+  <div class="container" id="content">
+    <div class='col-sm-4 col-xs-4'></div>
+    <div class='col-sm-4 col-xs-4'>
+      <input type="text" name="" id="username" placeholder="Escribe tu nombre de usuario">
+      <button onclick="unirse()" id="join" class="btn btn-danger">UNIRSE</button>
+    </div>
+    <div class='col-sm-4 col-xs-4'></div>
+  </div>
+  <div class="container">
+    <div class="modal" id="myModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+
+          <div class="modal-header">
+            <h4 class="modal-title">SYMMETRY</h4>
+          </div>
+
+          <div class="modal-body" id="mnsjWin">
+          </div>
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-info" id="next" data-dismiss="modal">Aceptar</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.0.4/socket.io.js"></script>
+  <script src="client.js"></script>
+</body>
+
+</html>
